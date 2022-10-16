@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Comfortaa&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header {
+    background-color: #FAC8CD;
+}
+
+h1 {
+    font-family: 'Amatic SC', cursive;
+    color: #5386E4;
+}
+
+main, nav, button, footer {
+    font-family: 'Comfortaa', cursive;
+}
+
+nav {
+background-color: #5FBB97;
+}
+
+body {
+    background-color: #8DDCA4;
+}
+
+footer {
+    background-color: #5FBB97;
+}
