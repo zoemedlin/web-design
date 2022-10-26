@@ -19,7 +19,7 @@ h1 {
 
 h2 {
     text-align: center;
-    padding: 17px;
+    padding-top: 17px;
     font-size: 35px;
 }
 
@@ -33,6 +33,10 @@ main, nav, button, footer {
     font-family: 'Comfortaa', cursive;
 }
 
+p{
+    font-size: 17px;
+    line-height: 23px;
+}
 /******NAV*******/
 
 nav ul{
@@ -56,7 +60,7 @@ body {
 }
 
 a {
-    color: #5386E4;
+    color: #63326E;
 }
 
 .backlink {
@@ -80,7 +84,7 @@ a {
 }
 
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 800px) {
     .middle-section {
         display: flex;
         flex-direction: row-reverse;
@@ -89,13 +93,13 @@ a {
 
     .middle-section-child {
         width: 50%;
-        padding-top: 1%;
-        padding-bottom: 5%;
+        padding-left: 1%;
+        padding-right: 1%;
     }
 }
 
 section {
-    margin: 20px;
+    margin: 15px;
 }
 
 .portfolio-child img {
@@ -108,7 +112,7 @@ section {
     margin: auto;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 800px) {
     .portfolio-parent {
         display: flex;
         flex-wrap: wrap;
@@ -126,12 +130,12 @@ section {
 
 .thank-you p{
     text-align: center;
-    padding: .75rem;
+    padding: 1rem;
+    padding-top: 2.5rem;
 }
 
-.thank-you {
-    padding-bottom: 1rem;
-}
+
+
 
 /******FORM*******/
 
@@ -152,6 +156,7 @@ input, textarea {
     border: none;
     background-color: #e7ffe5;
     border-radius: 10px;
+    font-family: 'Comfortaa', cursive;
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 10px;
@@ -188,5 +193,12 @@ button:hover {
 footer {
     background-color: #5FBB97;
     padding: 1rem;
+}
+
+
+.thank-you-footer {
     text-align: center;
+    position: absolute;
+    bottom: 0rem;
+    width: 100%;
 }
